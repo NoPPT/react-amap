@@ -1,5 +1,5 @@
 {
-  "name": "react-amap",
+  "name": "react-amap-oct",
   "version": "1.3.0",
   "description": "AMap Component Based On React",
   "main": "lib/index.js",
@@ -17,16 +17,16 @@
   "author": "ohislh@gmail.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elemefe/react-amap.git"
+    "url": "git+https://github.com/NoPPT/react-amap.git"
   },
   "keywords": [
     "map",
     "react"
   ],
   "bugs": {
-    "url": "https://github.com/ElemeFE/react-amap/issues"
+    "url": "https://github.com/NoPPT/react-amap/issues"
   },
-  "homepage": "https://github.com/ElemeFE/react-amap",
+  "homepage": "https://github.com/NoPPT/react-amap",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^16.0.10",
