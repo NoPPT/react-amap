@@ -141,6 +141,9 @@ class BaseMap extends Component<MapProps, {mapLoaded: boolean}> {
             mapLoaded: true
           })
         }
+      }).catch(() => {
+        alert('地图加载失败，刷新重试');
+        window.location.reload();
       })
     }
   }
