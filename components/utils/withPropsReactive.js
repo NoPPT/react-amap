@@ -70,6 +70,10 @@ function withPropsReactive(MapComponent) {
           setterMap[key](setterParam)
         } else {
           const trySetterName = `set${toCapitalString(key)}`
+          if (!instance.loaded) {
+            console.log('map unload, ' + trySetterName + ' return');
+            return;
+          }
           if (trySetterName in instance) {
             instance[trySetterName](setterParam)
           }

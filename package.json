@@ -1,6 +1,6 @@
 {
   "name": "react-amap-oct",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "AMap Component Based On React",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
